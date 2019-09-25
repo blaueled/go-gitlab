@@ -59,6 +59,7 @@ type ListTagsOptions struct {
 	ListOptions
 	OrderBy *string `url:"order_by,omitempty" json:"order_by,omitempty"`
 	Sort    *string `url:"sort,omitempty" json:"sort,omitempty"`
+	Search  *string `url:"search,omitempty" json:"search,omitempty"`
 }
 
 // ListTags gets a list of tags from a project, sorted by name in reverse
